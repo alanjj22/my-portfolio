@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.app-container{
+    color: #A3ABB2;
+    display: flex;
+    justify-content: center;
+}

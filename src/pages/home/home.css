@@ -1,0 +1,88 @@
+.home-container {
+  background-color: #0c151d;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-picture img {
+  width: 124px;
+  height: 124px;
+}
+
+.profile-data {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #f1f2f4;
+}
+
+.position {
+  color: #a3abb2;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.social-media-handles {
+  display: flex;
+  width: 174px;
+  justify-content: space-between;
+  padding-top: 26px;
+  padding-bottom: 30px;
+}
+
+.profile-facts {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fact {
+  height: 66px;
+  width: 103px;
+}
+
+.resume-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.download-button {
+  width: 158px;
+  height: 44px;
+  background: #ffe071;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: -0.531474px;
+  color: #3d3d3d;
+}
+
+.download-button span {
+    padding-right: 7px;
+}
+
+.tab-container{
+  padding: 20px;
+}
