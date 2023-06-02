@@ -1,8 +1,6 @@
-/* eslint-disable jsx-a11y/no-static-element-interactions */
-/* eslint-disable jsx-a11y/click-events-have-key-events */
 import React from 'react';
 
-import profilrPicture from '../../assets/profile_pic.png';
+import profilrPicture from '../../assets/profile_pic.jpeg';
 import downloadIcon from '../../assets/download.png';
 import ConnectWithMe from '../../components/connectMe/connectMe';
 
@@ -36,7 +34,7 @@ function Home() {
         <div className="fact">7 Years of work experiance</div>
       </div>
       <div className="resume-section">
-        <div className="download-button" onClick={handleDownload}>
+        <div aria-hidden="true" className="download-button" onClick={handleDownload}>
           <span>Download CV</span>
           <img src={downloadIcon} alt="download" />
         </div>

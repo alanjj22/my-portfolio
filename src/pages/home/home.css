@@ -9,9 +9,16 @@
   align-items: center;
 }
 
+.profile-picture  {
+  padding-top: 30px;
+}
+
 .profile-picture img {
-  width: 124px;
-  height: 124px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #ffe071;
+  outline: 5px solid #f1f2f4;
 }
 
 .profile-data {
